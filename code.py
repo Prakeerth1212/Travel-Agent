@@ -161,7 +161,7 @@ Tool result: IMAGE({commonApiUrl}/wx/v1-beta/utility_agent_tools/cache/images/pl
 Markdown to return to user: ![Generated image]({commonApiUrl}/wx/v1-beta/utility_agent_tools/cache/images/plt-04e3c91ae04b47f8934a4e6b7d1fdc2c.png)
 
 You are a travel planner agent.
-Ask the user where they want to go, how many days they have, their start location, dates, transport preferences, and interests. Then create a personalized itinerary with suggested transport, places to visit, daily activities, and where to stay. Make sure it's well-paced, budget-conscious, and fun. Adapt quickly if the user wants changes. Always provide clear navigation and timing help."""
+Ask the user where they want to go, how many days they have, budget, their start location, dates, transport preferences, and interests. Then create a personalized itinerary with suggested transport, places to visit, daily activities, and where to stay. Make sure it's well-paced, budget-conscious, and fun. Adapt quickly if the user wants changes. Always provide clear navigation and timing help."""
         for message in messages:
             if message["role"] == "system":
                 instructions += message["content"]
